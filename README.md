@@ -1,7 +1,7 @@
 # Laboratorio 4 Robotica- Robot Phantom X Pincher
 Presentado Por: Juan Camilo Aguilar Coronado
 # Objetivos
-Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel AX-12 del robot Phantom X Pincher.
+• Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel AX-12 del robot Phantom X Pincher.
 
 • Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher.
 
@@ -114,7 +114,7 @@ POSE 4
 
 ![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose4Matlab.png)
 
-#Robot
+# Robot
 
 Utilizando el Script de python descrito anteriormente se obtuvieron los siguientes resultados:
 
@@ -147,29 +147,30 @@ Ahora se puede ver como está configurada la interfaz:
 
 Entrada de Interfaz
 
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Entrada.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Entrada.jpg)
 
 Datos pose 1
 
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion1Medidas.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion1Medidas.jpg)
 
 
 
 Datos pose 2
 
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion2Medidas.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion2Medidas.jpg)
 
 
 
 Datos pose 3
 
 
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion3Medidas.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion3Medidas.jpg)
 
+# Conclusiones
 
+Comparando los resultados de cada pose obtenidos en MATLAB y los obtenidos utilizando el robot real, se puede ver que el movimineto es el deseado, o por lo menos similar, lo cual se puede ver corroborado por los datos mostrados en la interfaz.
 
-Comparando los resultados obtenidos en MATLAB y los obtenidos utilizando el robot real, se puede ver que el movimineto es el deseado, o por lo menos similar, lo cual se puede ver corroborado por los datos mostrados en la 
-interfaz.
+Teniendo en cuenta lo anterior y los objetivos planteados al comienzo, se puede decir que se completaron exitosamente, si bien hay margen de mejora para la interfaz de usuario, los objetivos de la práctica se lograron.
 
 
 
