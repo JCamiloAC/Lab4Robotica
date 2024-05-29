@@ -45,27 +45,15 @@ def callback(data):
 
     
 def ErrorPrint():
-    
-
     art = ["Waist           |",
            "Shoulder        |",
            " Elbow          |",
            " Wrist          |",
            "Gripper         |"]
-
     print( "                |      Position      |      objective      |      Error      ")
-    
-
-
     for i in range(5):
           print()
-          
           print(f"{art[i]}      {positions_degrees[i]}°                {next_pos[i]}°                {np.round(next_pos[i] - positions_degrees[i],3)}°", end= " ")
-
-
-
-
-          
     print()
 
      
@@ -118,35 +106,25 @@ def main():
         while True:
             print("Welcome to the Robot Control System \n\n")
             print("By Juan Camilo Aguilar Coronado\n\n")
-
             print("Select a position from the menu below: \n\n")
             print("Home Position:   0")
             print("Position 1:      1")
             print("Position 2:      2")
             print("Position 3:      3\n")
             print("Position 4:      4\n")
-            
             print("Exit Program:      E \n")
-            
-
             choise = str(input("Select the Position of Your Preference: "))
             
             if (choise == "e" or choise =="E"):
                 for i in range(5):
                     joint(i+1, deg2motor(0))
                 break
-                
-            
             try:
-                
-                
                 num_choise = int(choise)
-                
                 if (num_choise > 4  or num_choise < 0):
                     print("Choose a valid position")
                     input()
                 else:
-                   
                     movement(num_choise)
                     ErrorPrint()
                     input()     
