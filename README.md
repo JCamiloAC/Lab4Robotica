@@ -49,26 +49,26 @@ Para el programa y poder garantizar la funcionalidad del código se utilizaron l
 ![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Libraries.png)
 
 Y se implementaron las funciones siguientes funciones encontradas en los repositorios guia:
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Listener.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Listener.jpg)
 Para el Caso de Listener se borró la función Spin que se encontraba al final para asegurar la comunicación continua con el robot. Para el caso de la función CallBack, se cambió completamente para que regresara los datos que la función listener entregaba en el formato necesario, en este caso cambiando la lectura de radianes a grados y ajustando las cifras decimales.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/CallBack.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/CallBack.jpg)
 Finalmente la función JointCommand se dejó exactamente igual.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/JointCommand.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/JointCommand.jpg)
 Como la mayoria de las veces que se llama la fuinción jointCommand es para realizar un movimiento, se creo la función joint para resumir este proceso, esta asume el tipode comando y de información que va a recibir, así como el tiempo en que tendrá que ejecutarla, dejando a elección solamente la articulación a elegir, y la posición que se quiere para esta.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/jointResumido.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/jointResumido.jpg)
 
 Adicionalmente se implementó una función para que tomara los valores de los ángulos que se quieren enviar al robot, dados en grados, y los transformara en una escala que comprendiera este robot, es decir, mapearlo a un rango de valores entre 0 y 1024 que este dividido en 300 trozos y con el 0 ubicado en 512.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/deg2motor.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/deg2motor.jpg)
 
 Se implementó una función que moviera que ordenara mover todas las articulaciones del robot cuando se solicitara alcanzar la pose deseada, esta consta de una asignación de los puntos que corresponden a la pose como objetivo, y crea un bucle que mueve cada una de las articulaciones por separado, durante su ejecución.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/MovementFunction.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/MovementFunction.jpg)
 
 También se implementó la función ErrorPrint, que indica la posición del robot respecto a la posición ideal fijada como objetivo, mostrando la posición real del robot, la posición objetivo, y el error que existe entre ambas:
 
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/ErrorPrint.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/ErrorPrint.jpg)
 
 Finalmente se cuenta con el ciclo main, que hace una serie de evaluaciones de las entradas que se indican al programa para no entrar en errores, y despues ejecuta cada parte del programa, mientras va limpiando la consola.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/MainFunction.png)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/MainFunction.jpg)
 
 
 
