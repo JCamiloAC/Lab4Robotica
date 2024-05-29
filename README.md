@@ -26,4 +26,7 @@ Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel 
 
 • Un (1) manipulador Phantom X Pincher con su base en madera.
 
+# Evidencia de Funcionamiento:
+
+https://youtu.be/7U7HsjwnKro
 
