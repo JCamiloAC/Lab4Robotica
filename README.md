@@ -30,3 +30,11 @@ Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel 
 
 https://youtu.be/7U7HsjwnKro
 
+# Desarrollo
+# Parámetros DH:
+
+Se hallaron los parámetros DH del m,ecanismo apoyandose del siguiente diagrama:
+
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/DHDiagram.png)
+
+
