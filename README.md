@@ -68,7 +68,56 @@ También se implementó la función ErrorPrint, que indica la posición del robo
 ![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/ErrorPrint.jpg)
 
 Finalmente se cuenta con el ciclo main, que hace una serie de evaluaciones de las entradas que se indican al programa para no entrar en errores, y despues ejecuta cada parte del programa, mientras va limpiando la consola.
-![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/MainFunction.jpg)
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/MainFunction.jpg)
+
+
+# Matlab
+
+Utilizando MATLAB, se pudieron hallar las poses objetivo, estas en el archivo python se decidieron guardar en un diccionario y sus valores corresponden al ángulo de cada articulación, la priomera posición es un 0 debido a que esta es la posición de home:
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Puntos.png)
+
+Las poses son las siguiente:
+HOME
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/HomeMatlab.png)
+POSE 1 
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose1Matlab.png)
+POSE 2
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose2Matlab.png)
+POSE 3
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose3Matlab.png)
+POSE 4 
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose4Matlab.png)
+
+#Robot
+
+Utilizando el Script de python descrito anteriormente se obtuvieron los siguientes resultados:
+
+En primer lugar las poses son las siguientes:
+
+HOME
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/HomeRobot.jpg)
+POSE 1 
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose1Robot.jpg)
+POSE 2
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose2Robot.jpg)
+POSE 3
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose3Robot.jpg)
+POSE 4 
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Pose4Robot.jpg)
+
+Ahora se puede ver como está configurada la interfaz:
+Entrada de Interfaz
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Entrada.png)
+Datos pose 1
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion1Medidas.png)
+
+Datos pose 2
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion2Medidas.png)
+
+Datos pose 3
+![](https://github.com/JCamiloAC/Lab4Robotica/blob/main/imagenes/Posicion3Medidas.png)
+
+Comparando los resultados obtenidos en MATLAB y los obtenidos utilizando el robot real, se puede ver que el movimineto es el deseado, o por lo menos similar, lo cual se puede ver corroborado por los datos mostrados en la interfaz.
 
 
 
